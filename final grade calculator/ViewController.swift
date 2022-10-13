@@ -42,7 +42,7 @@ var dubble3=0.0
         text2string = gth.text ?? ""
         text3string = yolo.text ?? ""
        
-        //assign double variables
+        //assign double variables from textfields
         dubble1 = Double(text1string) ?? 0.0
         
         
