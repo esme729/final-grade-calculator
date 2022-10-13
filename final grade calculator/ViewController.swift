@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var krean: UILabel!
     
-    @IBOutlet var lol: UIView!
+
     
-    @IBOutlet weak var idfc: UITextField!
+    
+    @IBOutlet weak var fly: UITextField!
     
     
     @IBOutlet weak var gth: UITextField!
@@ -29,10 +30,19 @@ class ViewController: UIViewController {
     
     
     @IBAction func function(_ sender: Any) {
+    
+var text1string = ""
+var dubble1=0.0
+var text2string = ""
+var dubble2=0.0
+var text3string = ""
+var dubble3=0.0
         
-        print(lmao.text)
-        
-        print(yolo.text)
+        text1string = fly.text ?? ""
+        text2string = gth.text ?? ""
+        text3string = yolo.text ?? ""
+       
+        dubble1 = Double(text1string) ?? 0.0
         
         
         
